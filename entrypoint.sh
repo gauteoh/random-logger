@@ -7,13 +7,13 @@ do
    instruction=$(shuf -i 0-4 -n 1)
    d=`date -Iseconds`
    case "$instruction" in
-      "1") echo "$d ERROR something happened in this execution."
+      "1") echo "160.46.226.165"
       ;;
-      "2") echo "$d INFO takes the value and converts it to string."
+      "2") echo "151.101.0.81"
       ;;
-      "3") echo "$d WARN variable not in use."
+      "3") echo "172.217.16.174"
       ;;
-      "4") echo "$d DEBUG first loop completed."
+      "4") echo "195.88.54.16"
       ;;
    esac
 done
